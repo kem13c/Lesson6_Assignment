@@ -8,8 +8,16 @@ Questions:
 
 1.  Name two methods you can use to add a node to the DOM tree, and explain the difference between them.
 
-
+you can use appendChild() adds node after existing child
+nodes or you can use the cloneNode() method which clones an element along with its existing value.
 
 
 
 2.  List the six main objects that make up the browser object model. 
+
+1. window
+2. location
+3. history
+4. navigator
+5. screen
+6. document

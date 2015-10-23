@@ -8,8 +8,16 @@ Questions:
 
 1.  What statement would you use to create a variable name "logo" and assign as its value a reference to the element with the "id" value "logoImage"?
 
-
+document.getElementById("logo").style.display = "logoImage";
 
 
 
 2.  What statement would you use to create a variable named "firstPriority" and assign as its value a reference to the first "li" element in the document?
+
+var list = document.getElementById("navList");
+var contact = document.createElement("li");
+var button1 = querySelectorAll("li.topNav")[0];
+var allContent = button1.innerHTML;
+// <a href="aboutus.htm">About Us</a>
+var justText = button1.textContent;
+// About Us
